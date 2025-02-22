@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    margin: 30px;
+    padding: 20px;
+    background-color: #3498db;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+}
+
+.grid-item {
+    background-color: #2ecc71;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

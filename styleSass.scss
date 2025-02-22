@@ -1,0 +1,30 @@
+$cor-padrao: #3498db;
+
+@mixin botao($cor, $tamanho) {
+    background-color: $cor;
+    padding: $tamanho;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.btn-primary {
+    @include botao($cor-padrao, 20px);
+}
+
+.btn-secondary {
+    @include botao(red, 10px);
+}
+
+header {
+    background-color: $cor-padrao;
+
+    h1 {
+        color: white;
+    }
+}
+
+
+footer {
+    background-color: $cor-padrao;
+}
