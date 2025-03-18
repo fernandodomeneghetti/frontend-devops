@@ -1,0 +1,13 @@
+name: primeiro-workflow
+run-name: Primeiro Workflow
+# arrays podem ser usados com [] ou -, exemplo
+# on: [push] ou 
+# on:
+#   - push
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Primeiro passo
+      run: echo "Deu bom!"
