@@ -8,4 +8,4 @@ jobs:
         runs-on: macos-latest
         steps:
             - name: Display Mensagem
-              run: echo "Deu bom!"
+              rn: echo "Deu bom!"
