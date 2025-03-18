@@ -5,6 +5,12 @@ run-name: Primeiro Workflow
 # on:
 #   - push
 on: [push]
+
+# rodar somente quando o evento for na branch main
+# on:
+#     push:
+#       branches:
+#         - main
 jobs:
   build:
     runs-on: ubuntu-latest
