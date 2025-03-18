@@ -1,0 +1,11 @@
+name: primeiro-workflow
+run-name: Primeiro Workflow
+on: [push]
+# on:
+#     - push
+jobs:
+    mensagem-boas-vindas:
+        runs-on: macos-latest
+        steps:
+            - name: Display Mensagem
+              run: echo "Deu bom!"
