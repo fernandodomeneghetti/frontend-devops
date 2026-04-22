@@ -19,9 +19,10 @@ jobs:
       with:
         fetch-depth: 0  
 
-    - uses: SonarSource/sonarqube-scan-action@v5
+    - uses: SonarSource/sonarqube-scan-action@v7.1.0
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        SONAR_ORGANIZATION: ${{ secrets.SONAR_ORGANIZATION }}
         # SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
       with:
         args: >
